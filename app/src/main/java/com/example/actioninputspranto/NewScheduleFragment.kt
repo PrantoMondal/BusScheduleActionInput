@@ -10,6 +10,7 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.RadioButton
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import com.example.actioninputspranto.customdialogs.DatePickerFragment
 import com.example.actioninputspranto.customdialogs.TimePickerFragment
 import com.example.actioninputspranto.databinding.FragmentNewScheduleBinding
@@ -65,6 +66,9 @@ class NewScheduleFragment : Fragment() {
             departureTime = selectedTime,
             busType = busType
         )
+        scheduleList.add(schedule)
+        findNavController().navigate(R.id.action_newScheduleFragment_to_scheduleListFragment)
+
         Log.d("ScheduleInfoCheck","saveInfo: $schedule")
     }
 
