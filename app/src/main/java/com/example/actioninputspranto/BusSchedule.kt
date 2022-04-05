@@ -10,3 +10,20 @@ data class BusSchedule(
     val busType :String
 
 )
+val scheduleList = mutableListOf<BusSchedule>(
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+    BusSchedule(id =System.currentTimeMillis(), name = "Ena", from = "Dhaka", to = "Rajshahi", departureDate = "22/04/22", departureTime = "23:00", busType = "Economy"),
+)
